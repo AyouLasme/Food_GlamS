@@ -1,0 +1,100 @@
+/* Début des variables */
+:root {
+    --black: black;
+    --orange: orange;
+    --white: white;
+}
+/* Fin des variables */
+/* Debut section header */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--black) ;
+}
+.logoImage{
+    width: 200px;
+}
+/* End section header */
+
+/* Begin section Nav */
+
+#pills-tab{
+    background-color: var(--black) !important;
+}
+
+
+.nav-link{
+    color: var(--orange) !important;
+    font-weight: bold;
+}
+
+#pills-tab .active{
+    background-color: var(--orange) !important;
+    color: var(--white) !important;
+}
+/* Begin section Nav */
+
+/* Debut card */
+
+.card{
+    height: 20rem;
+    border: 1px solid var(--orange);
+    text-align: center;
+    color: var(--orange);
+}
+
+.buttonPlat{
+    margin: 0 10px;
+    border: 2px solid var(--orange);
+    border-radius: 20px;
+    color: var(--white);
+    background-color: var(--orange);
+}
+
+td{
+    vertical-align: middle;
+}
+
+.buttonPlat:hover{
+    color:var(--orange);
+    background-color: var(--black);
+    border: 2px solid var(--orange);
+}
+
+.imageCard{
+    height: 13rem;
+}
+
+/* Debut card  */
+
+
+
+/* Debut Panier */
+
+.boutton{
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+/* Fin Panier */
+
+
+/* Debut code css du footer */
+.container_footer{
+    background-color: var(--black)!important;
+    color: var(--orange) !important;
+}
+
+.color_copyright{
+    background-color: var(--black);
+}
+
+.boutton_Footer{
+    color: var(--orange) !important;
+}
+
+.span_Footer{
+    padding-left: 10px;
+}
+/* Fin code css du footer */
